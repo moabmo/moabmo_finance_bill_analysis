@@ -40,10 +40,10 @@ const losses = [
 const Losses = () => {
   return (
     <div className="losses">
-      <h2>Losses for Common Citizens</h2>
+      <h2 style={{ color: 'red' }}>Losses for Common Citizens</h2>
       {losses.map((loss, index) => (
         <div key={index} className="card loss-card">
-          <h3>{loss.title}</h3>
+          <h3 style={{ color: 'red' }}>{loss.title}</h3>
           <p>{loss.content}</p>
         </div>
       ))}
