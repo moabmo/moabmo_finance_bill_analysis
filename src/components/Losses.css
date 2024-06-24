@@ -1,0 +1,14 @@
+.losses {
+    padding: 20px;
+  }
+  
+  .loss-card {
+    border-left: 5px solid #dc3545;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  

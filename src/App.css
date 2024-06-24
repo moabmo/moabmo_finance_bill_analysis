@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(170, 169, 169);
+  width: 98%;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #004d1a;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.navbar {
+  background: #006622;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ffcc00;
+}
+
+.home {
+  padding: 50px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.home h1 {
+  font-size: 3em;
+}
+
+.home p {
+  font-size: 1.2em;
+}
+
+.wins, .losses, .amendments {
+  padding: 20px;
+}
+
+.win-card {
+  border-left: 5px solid #28a745;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.loss-card {
+  border-left: 5px solid #dc3545;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.footer {
+  background: #004d1a;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

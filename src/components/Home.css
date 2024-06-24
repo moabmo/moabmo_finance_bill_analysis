@@ -1,0 +1,14 @@
+.home {
+    padding: 50px;color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    background-color: rgb(170, 169, 169);
+  }
+  
+  .home h1 {
+    font-size: 3em;
+  }
+  
+  .home p {
+    font-size: 1.2em;
+  }
+  
