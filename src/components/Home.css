@@ -1,7 +1,9 @@
 .home {
     padding: 50px;color: white;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    background-color: rgb(170, 169, 169);
+    /* text-shadow: 0 0 10px rgba(247, 247, 247, 0.1); */
+    background-color: rgb(245, 245, 245);
+    color: black;
+    font-family: 'Comfortaa', Arial, sans-serif;
   }
   
   .home h1 {
